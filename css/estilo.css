@@ -2,8 +2,56 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Amatic SC', cursive;
   }
-
+p{
+  font-size: 25px;
+}
   main {
     flex: 1 0 auto;
   }
+
+.logo{
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+   
+}
+
+.texto-logo{
+  font-family: 'Amatic SC', cursive;
+
+}
+
+h4.texto-logo{
+  font-size-adjust: 25px;
+}
+
+nav  ul  a {
+  color: black;
+  font-size: 25px;
+}
+nav{
+  background-color: #A4D109;
+}
+
+footer.page-footer{
+  background-color: #A4D109;
+}
+
+.card-image img{
+  height: 300px;
+}
+
+.lima{
+  background-color: #A4D109;
+}
+
+.btn-floating:hover {
+  background-color: #A4D109;
+}
+
+.galeria{
+  height:275px;
+}
